@@ -61,4 +61,36 @@ box-sizing: border-box;
 /*---</header>---*/
 
 /*---<section-1---*/
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+  margin: 0 0 60px 0;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 0 0 65px 0;
+  /* padding-right: 1100(all)-540(p)=570px; <--не работает*/
+}
+
+.text-me {
+  display: inline-block;
+  padding: 19px 41px 19px 41px;
+  margin-bottom: 141px;
+  background-color: #34547A;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
 /*---</section-1---*/
