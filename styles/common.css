@@ -3,11 +3,12 @@
 *::before,
 *::after {
 box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
 }
 
 
 /*****************MAIN RULES**********************/
-.section-first {
+.section {
   background-color: #EEEFF1;
 }
 
@@ -41,7 +42,6 @@ box-sizing: border-box;
 }
 
 .link {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -51,7 +51,6 @@ box-sizing: border-box;
 }
 
 .link-active {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -62,7 +61,6 @@ box-sizing: border-box;
 
 /*---<section-1---*/
 .title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
@@ -71,7 +69,6 @@ box-sizing: border-box;
 }
 
 .subtitle {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 26px;
   color: #727272;
@@ -85,7 +82,6 @@ box-sizing: border-box;
   margin-bottom: 141px;
   background-color: #34547A;
 
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -114,5 +110,52 @@ box-sizing: border-box;
   color: #727272;
   margin-bottom: 100px;
 }
-
 /*---</article>---*/
+
+/*---<section-2>---*/
+/*---<header>---*/
+.nav2 {
+  background-color: #34547A;
+  padding: 100px 0 100px 0;
+  margin-bottom: 100px;
+}
+
+.list-item2 {
+  display: inline-block;
+  position: relative;
+  margin-right: 112px; /*45px margin +67px position*/
+}
+
+.list-item2:last-child {
+  margin-right: 0;
+}
+
+.link2 {
+  text-decoration: none;
+}
+
+.link2>p {
+  margin: 0;
+}
+
+.number40 {  
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.link2::before {
+  content: url(../images/Group.png);
+  position: absolute;
+  left: -67px; /*47px(png width) +20(margin)*/
+}
+
+.projects {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+/*---</header>---*/
+
+/*---</section-2>---*/
