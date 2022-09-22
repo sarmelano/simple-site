@@ -157,5 +157,18 @@ font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
 }
 /*---</header>---*/
+/*---<main>---*/
+.sec2tit {
+  margin-top: 100px;
+}
+
+.sec2subtit {
+  margin-bottom: 57px;
+}
+
+.vidos {
+  margin-bottom: 100px;
+}
+/*---</main>---*/
 
 /*---</section-2>---*/
