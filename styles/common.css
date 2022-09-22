@@ -96,5 +96,23 @@ box-sizing: border-box;
 /*---</section-1>---*/
 
 /*---</article>---*/
+.title_art {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin: 112px 0 50px 0;
+}
+
+.subtitle_art {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 100px;
+}
 
 /*---</article>---*/
