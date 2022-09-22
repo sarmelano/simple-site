@@ -5,7 +5,8 @@
 box-sizing: border-box;
 }
 
-/*---------------------------------------*/
+
+/*****************MAIN RULES**********************/
 .section-first {
   background-color: #EEEFF1;
 }
@@ -18,8 +19,10 @@ box-sizing: border-box;
 .centred {
   text-align: center;
 }
-/*---------------------------------------*/
+/*************************************************/
 
+
+/*---<header>---*/
 .nav {
   padding: 79px 0 162px 0;
 }
@@ -55,4 +58,7 @@ box-sizing: border-box;
   letter-spacing: 0.1em;
   color: #34547A;
 }
-/*===============</header>================*/
+/*---</header>---*/
+
+/*---<section-1---*/
+/*---</section-1---*/
